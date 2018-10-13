@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'InfiniteCarousel_Example' do
+  pod 'InfiniteCarousel', :path => '../'
+
+  target 'InfiniteCarousel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

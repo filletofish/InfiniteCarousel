@@ -1,0 +1,16 @@
+PODS:
+  - InfiniteCarousel (0.1.0)
+
+DEPENDENCIES:
+  - InfiniteCarousel (from `../`)
+
+EXTERNAL SOURCES:
+  InfiniteCarousel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  InfiniteCarousel: 1eb070be07873f06c60e71d18443524848cacf99
+
+PODFILE CHECKSUM: 4dc063ad16cf7fbfef42ca908eda238b40aba799
+
+COCOAPODS: 1.5.3
