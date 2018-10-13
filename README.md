@@ -38,6 +38,8 @@ pod 'InfiniteCarousel'
 
 Filipp Fediakov, [Twitter](https://twitter.com/filippfediakov)
 
+Special thanks to [@ilyailya](https://github.com/ilyailya)
+
 ## License
 
 InfiniteCarousel is available under the MIT license. See the LICENSE file for more info.
