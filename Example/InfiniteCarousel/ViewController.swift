@@ -35,7 +35,7 @@ class ViewController: UIViewController, CarouselCollectionViewDataSource {
 
   let emojis: [String] = ["👑", "🙈", "👾"]
   let pageControl = UIPageControl()
-  let collectionView = CarouselCollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
+  let collectionView = CarouselCollectionView(frame: .zero, collectionViewFlowLayout: UICollectionViewFlowLayout())
 
   override func viewDidLoad() {
     super.viewDidLoad()

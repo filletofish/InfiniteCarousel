@@ -45,7 +45,7 @@
 		480BB1DCD5582FB5C13A59E5998BA85B /* Pods-InfiniteCarousel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InfiniteCarousel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		52DE39D98FA9E2D890BFE5877AE8E762 /* Pods-InfiniteCarousel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InfiniteCarousel_Example.modulemap"; sourceTree = "<group>"; };
 		5EC804C5231FD73C64A6E733493414BF /* Pods-InfiniteCarousel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfiniteCarousel_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		64BBB894B6C41B6B7B72874DD2C1C044 /* InfiniteCarousel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = InfiniteCarousel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		64BBB894B6C41B6B7B72874DD2C1C044 /* InfiniteCarouselCollectionView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = InfiniteCarouselCollectionView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		64CA4CA0771FBFC5AE5A08F8021AE232 /* Pods-InfiniteCarousel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InfiniteCarousel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		744A5D27D1B3918DA7DF156D99843342 /* Pods-InfiniteCarousel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InfiniteCarousel_Example-resources.sh"; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 		B1B32AF80B98B0D31ECF9CE957AA3BA3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				64BBB894B6C41B6B7B72874DD2C1C044 /* InfiniteCarousel.podspec */,
+				64BBB894B6C41B6B7B72874DD2C1C044 /* InfiniteCarouselCollectionView.podspec */,
 				458D2F0C24F8BD5891EF4C69C08D0042 /* LICENSE */,
 				ECC6CAB6BFD1417FA6CB0CBE268DB1DE /* README.md */,
 			);

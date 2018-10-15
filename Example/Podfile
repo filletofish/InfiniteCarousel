@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'InfiniteCarousel_Example' do
-  pod 'InfiniteCarousel', :path => '../'
+  pod 'InfiniteCarouselCollectionView', :path => '../'
 
   target 'InfiniteCarousel_Tests' do
     inherit! :search_paths
