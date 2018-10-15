@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/InfiniteCarousel.svg?style=flat)](https://cocoapods.org/pods/InfiniteCarousel)
 [![Platform](https://img.shields.io/cocoapods/p/InfiniteCarousel.svg?style=flat)](https://cocoapods.org/pods/InfiniteCarousel)
 
-![ezgif com-resize](https://user-images.githubusercontent.com/14925971/46906978-9ff0a580-cf03-11e8-8a3e-325b9b6a2ea8.gif)
+![ezgif com-crop](https://user-images.githubusercontent.com/14925971/46984320-7c348780-d0dc-11e8-9f1c-6c459f011b46.gif)
 
 InfiniteCarousel is a lightweight lib, that provides implementation of **horizontal infinite** collection view to display paginated items of equal-sized items
  
