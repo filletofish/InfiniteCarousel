@@ -22,7 +22,7 @@ Underneath algorithm can be described as followed:
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Prerequisites 
-- Use eqaul-sized cells
+- Use equal-sized cells
 - Use fullscreen width cells
 
 ## Installation
@@ -31,7 +31,7 @@ InfiniteCarousel is available through [CocoaPods](https://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'InfiniteCarousel'
+pod 'InfiniteCarouselCollectionView'
 ```
 
 ## Author
