@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'InfiniteCarouselCollectionView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'InfiniteCarousel is a lightweight lib, that provides implementation of horizontal infinite paginated carousel view.'
 
 # This description is used to generate tags and improve search results.
