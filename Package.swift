@@ -17,8 +17,5 @@ let package = Package(
         .target(
             name: "InfiniteCarousel",
             dependencies: []),
-        .testTarget(
-            name: "InfiniteCarouselTests",
-            dependencies: ["InfiniteCarousel"]),
     ]
 )
