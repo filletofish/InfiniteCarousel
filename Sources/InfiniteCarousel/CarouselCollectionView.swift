@@ -161,7 +161,7 @@ public class CarouselCollectionView: UICollectionView {
         }
 
         autoscrollTimer?.invalidate()
-        autoscrollTimer = Timer.scheduledTimer(withTimeInterval: 0, repeats: false) { [weak self] _ in self?.scrollToNextElement() }
+        autoscrollTimer = Timer.scheduledTimer(withTimeInterval: autoscrollTimeInterval, repeats: false) { [weak self] _ in self?.scrollToNextElement() }
     }
 
     private func stopAutoscrollTimer() {
