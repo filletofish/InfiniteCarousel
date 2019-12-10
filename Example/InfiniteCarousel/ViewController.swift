@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import InfiniteCarousel
+import InfiniteCarouselCollectionView
 
 final class CVCell: UICollectionViewCell {
   let label = UILabel()
@@ -26,11 +26,11 @@ final class CVCell: UICollectionViewCell {
   }
 }
 
-class ViewController: UIViewController, CarouselCollectionViewDataSource {
+class ViewController: UIViewController {
   let colors: [UIColor] = [
-    UIColor.init(red: 19.0/255.0, green: 51.0/255.0, blue: 76.0/255.0, alpha: 1.0),
-    UIColor.init(red: 0.0/255.0, green: 87.0/255.0, blue: 46.0/255.0, alpha: 1.0),
-    UIColor.init(red: 253.0/255.0, green: 95.0/255.0, blue: 0.0/255.0, alpha: 1.0)
+    UIColor(red: 19.0/255.0, green: 51.0/255.0, blue: 76.0/255.0, alpha: 1.0),
+    UIColor(red: 0.0/255.0, green: 87.0/255.0, blue: 46.0/255.0, alpha: 1.0),
+    UIColor(red: 253.0/255.0, green: 95.0/255.0, blue: 0.0/255.0, alpha: 1.0)
   ]
 
   let emojis: [String] = ["👑", "🙈", "👾"]
@@ -59,23 +59,25 @@ class ViewController: UIViewController, CarouselCollectionViewDataSource {
     pageControl.frame.origin.y = view.bounds.maxY - 80 - pageControl.frame.height
     pageControl.sizeToFit()
   }
+}
 
-  var numberOfItems: Int {
-    return colors.count
-  }
+extension ViewController: CarouselCollectionViewDataSource {
+    var numberOfItems: Int {
+      return colors.count
+    }
 
-  func carouselCollectionView(_ carouselCollectionView: CarouselCollectionView, cellForItemAt index: Int, fakeIndexPath: IndexPath) -> UICollectionViewCell {
-    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "id", for: fakeIndexPath) as! CVCell
-    cell.backgroundColor = colors[index]
-    cell.label.text = emojis[index]
-    return cell
-  }
+    func carouselCollectionView(_ carouselCollectionView: CarouselCollectionView, cellForItemAt index: Int, fakeIndexPath: IndexPath) -> UICollectionViewCell {
+      let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "id", for: fakeIndexPath) as! CVCell
+      cell.backgroundColor = colors[index]
+      cell.label.text = emojis[index]
+      return cell
+    }
 
-  func carouselCollectionView(_ carouselCollectionView: CarouselCollectionView, didSelectItemAt index: Int) {
-    print("Did select item at \(index)")
-  }
+    func carouselCollectionView(_ carouselCollectionView: CarouselCollectionView, didSelectItemAt index: Int) {
+      print("Did select item at \(index)")
+    }
 
-  func carouselCollectionView(_ carouselCollectionView: CarouselCollectionView, didDisplayItemAt index: Int) {
-    pageControl.currentPage = index
-  }
+    func carouselCollectionView(_ carouselCollectionView: CarouselCollectionView, didDisplayItemAt index: Int) {
+      pageControl.currentPage = index
+    }
 }

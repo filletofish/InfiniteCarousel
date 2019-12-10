@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double InfiniteCarouselVersionNumber;
-FOUNDATION_EXPORT const unsigned char InfiniteCarouselVersionString[];
+FOUNDATION_EXPORT double InfiniteCarouselCollectionViewVersionNumber;
+FOUNDATION_EXPORT const unsigned char InfiniteCarouselCollectionViewVersionString[];
 

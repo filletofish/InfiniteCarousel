@@ -10,6 +10,6 @@ Just check out the class CarouselCollectionView.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'filletofish' => 'julik103@mail.ru' }
   s.source           = { :git => 'https://github.com/filletofish/InfiniteCarousel.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
   s.source_files = 'Sources/InfiniteCarousel/**/*'
 end

@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "InfiniteCarousel",
     platforms: [
-        .iOS(.v11),.tvOS(.v11)
+        .iOS(.v10), .tvOS(.v10)
     ],
     products: [
         .library(
