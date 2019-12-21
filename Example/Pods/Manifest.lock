@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  InfiniteCarouselCollectionView: 4663a5e46e66b7cefdea1c735d27860134a2ab03
+  InfiniteCarouselCollectionView: 609c251257bf0172033c554a1b13ea85960a0db9
 
 PODFILE CHECKSUM: 34d076d93602510c7cfbf4c1f640f39df07d50ae
 
