@@ -1,11 +1,11 @@
 use_frameworks!
 
 target 'InfiniteCarousel_Example' do
+  platform :ios, '10.0'
+
   pod 'InfiniteCarouselCollectionView', :path => '../'
 
-  target 'InfiniteCarousel_Tests' do
-    inherit! :search_paths
-
-    
-  end
+#  target 'InfiniteCarousel_Tests' do
+#    inherit! :search_paths
+#  end
 end

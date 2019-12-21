@@ -1,16 +1,16 @@
 PODS:
-  - InfiniteCarousel (0.1.0)
+  - InfiniteCarouselCollectionView (0.1.2)
 
 DEPENDENCIES:
-  - InfiniteCarousel (from `../`)
+  - InfiniteCarouselCollectionView (from `../`)
 
 EXTERNAL SOURCES:
-  InfiniteCarousel:
+  InfiniteCarouselCollectionView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  InfiniteCarousel: 1eb070be07873f06c60e71d18443524848cacf99
+  InfiniteCarouselCollectionView: 4663a5e46e66b7cefdea1c735d27860134a2ab03
 
-PODFILE CHECKSUM: 4dc063ad16cf7fbfef42ca908eda238b40aba799
+PODFILE CHECKSUM: 34d076d93602510c7cfbf4c1f640f39df07d50ae
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4

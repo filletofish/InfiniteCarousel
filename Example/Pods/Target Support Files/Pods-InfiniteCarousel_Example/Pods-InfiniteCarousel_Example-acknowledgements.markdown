@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## InfiniteCarousel
+## InfiniteCarouselCollectionView
 
 Copyright (c) 2018 filletofish <julik103@mail.ru>
 
