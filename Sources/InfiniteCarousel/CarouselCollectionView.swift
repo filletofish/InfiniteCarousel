@@ -198,6 +198,10 @@ extension CarouselCollectionView: UIScrollViewDelegate {
         loopItems(scrollView)
         tryToStartTimer()
     }
+    
+    public func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
+        notifyDatasourceOnDisplayPage(currentPage)
+    }
 }
 
 extension CarouselCollectionView: UICollectionViewDelegate {
