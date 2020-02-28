@@ -1,9 +1,9 @@
 # InfiniteCarousel
 
-[![CI Status](https://img.shields.io/travis/filletofish/InfiniteCarousel.svg?style=flat)](https://travis-ci.org/filletofish/InfiniteCarousel)
-[![Version](https://img.shields.io/cocoapods/v/InfiniteCarousel.svg?style=flat)](https://cocoapods.org/pods/InfiniteCarousel)
-[![License](https://img.shields.io/cocoapods/l/InfiniteCarousel.svg?style=flat)](https://cocoapods.org/pods/InfiniteCarousel)
-[![Platform](https://img.shields.io/cocoapods/p/InfiniteCarousel.svg?style=flat)](https://cocoapods.org/pods/InfiniteCarousel)
+[![CI Status](https://img.shields.io/travis/filletofish/InfiniteCarousel.svg?style=flat)](https://travis-ci.org/filletofish/InfiniteCarouselCollectionView)
+[![Version](https://img.shields.io/cocoapods/v/InfiniteCarousel.svg?style=flat)](https://cocoapods.org/pods/InfiniteCarouselCollectionView)
+[![License](https://img.shields.io/cocoapods/l/InfiniteCarousel.svg?style=flat)](https://cocoapods.org/pods/InfiniteCarouselCollectionView)
+[![Platform](https://img.shields.io/cocoapods/p/InfiniteCarousel.svg?style=flat)](https://cocoapods.org/pods/InfiniteCarouselCollectionView)
 
 ![ezgif com-crop](https://user-images.githubusercontent.com/14925971/46984320-7c348780-d0dc-11e8-9f1c-6c459f011b46.gif)
 
