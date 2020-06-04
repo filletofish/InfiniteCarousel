@@ -128,7 +128,7 @@ public class CarouselCollectionView: UICollectionView {
     }
 
     private func setFakePage(_ fakePage: Int, animated: Bool = false) {
-        precondition((0..<fakeNumberOfItems).contains(fakePage))
+        guard (0..<fakeNumberOfItems).contains(fakePage) else { return }
         let newContentOffset = CGPoint(x: flowLayout.itemSize.width * CGFloat(fakePage), y: 0)
         setContentOffset(newContentOffset, animated: animated)
     }
@@ -136,7 +136,7 @@ public class CarouselCollectionView: UICollectionView {
     /// Sets current displayed page.
     /// Permissible values are from `0` to numberOfItems returned in `carouselDataSource`.
     public func setCurrentPage(_ page: Int, animated: Bool = false) {
-        precondition((0..<numberOfItems).contains(page))
+        guard (0..<numberOfItems).contains(page) else { return }
         setFakePage(page + 1, animated: animated)
     }
 
